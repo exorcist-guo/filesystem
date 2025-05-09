@@ -1,5 +1,5 @@
 {
-  "name": "yzh52521/filesystem",
+  "name": "exorcist-guo/filesystem",
   "description": "Flysystem V2 adapter for the webman",
   "keywords": ["webman", "filesystem", "ftp","s3","oss","cos","qiniu"],
   "type": "library",

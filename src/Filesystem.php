@@ -263,9 +263,10 @@ class Filesystem
      * @param File $file
      * @return string
      */
-    private function hashName(File $file): string
+    private function hashName(File $file,$is_gang = 0): string
     {
-        return date('Ymd') . DIRECTORY_SEPARATOR . hash_file('md5', $file->getPathname()) . '.' . $file->getUploadExtension();
+        return date('Ymd') . '/' . hash_file('md5', $file->getPathname()) . '.' . $file->getUploadExtension();
+
     }
 
 
